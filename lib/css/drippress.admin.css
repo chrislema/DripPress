@@ -1,0 +1,59 @@
+/* post editor */
+
+#dppress-schd {}
+
+#dppress-schd ul.dppress-data {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#dppress-schd ul.dppress-data li {
+	display: inline-block;
+	vertical-align: top;
+	width: auto;
+	margin: 0;
+	padding: 0;
+}
+
+#dppress-schd ul.dppress-data li.dppress-count-field {
+	width: 20%;
+	margin-right: 14%;
+}
+
+#dppress-schd ul.dppress-data li.dppress-range-field {
+	width: 65%;
+}
+
+#dppress-schd ul.dppress-data li span {
+	width: 100%;
+	display: block;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#dppress-schd ul.dppress-data li span.field-title {
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 24px;
+}
+
+#dppress-schd ul.dppress-data li.dppress-count-field span.field-title {
+	text-align: center;
+}
+
+#dppress-schd ul.dppress-data li span input,
+#dppress-schd ul.dppress-data li span select {
+	width: 100%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* admin column */
+table.posts th.column-drip-length,
+table.posts td.column-drip-length {
+	text-align: center;
+	max-width: 100px;
+}
